@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+template("${1:my_module}/${2:mytemplate}.erb")
+]]>
+</content>
+<tabTrigger>template</tabTrigger>
+<scope>source.puppet</scope>
+<description>template</description>
+</snippet>

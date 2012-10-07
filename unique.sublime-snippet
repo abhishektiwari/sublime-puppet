@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+unique(${1:string or array})
+]]>
+</content>
+<tabTrigger>unique</tabTrigger>
+<scope>source.puppet</scope>
+<description>unique string or array</description>
+</snippet>

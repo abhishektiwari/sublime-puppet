@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+range("${1:host01}", "${2:host10}")
+]]>
+</content>
+<tabTrigger>range</tabTrigger>
+<scope>source.puppet</scope>
+<description>range to array</description>
+</snippet>

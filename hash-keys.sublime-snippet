@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+keys(\$${1:hash})
+]]>
+</content>
+<tabTrigger>hash</tabTrigger>
+<scope>source.puppet</scope>
+<description>hash keys as array</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+has_key(\$${1:hash}, '${2:key}')
+]]>
+</content>
+<tabTrigger>hash</tabTrigger>
+<scope>source.puppet</scope>
+<description>hash has a given key</description>
+</snippet>

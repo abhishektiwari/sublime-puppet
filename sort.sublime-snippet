@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+sort(${1:string or array})
+]]>
+</content>
+<tabTrigger>sort</tabTrigger>
+<scope>source.puppet</scope>
+<description>sort string or array</description>
+</snippet>

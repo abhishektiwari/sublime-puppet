@@ -10,6 +10,8 @@
 * user
 * group
 * cron
+* notify
+* ssh
 
 ### Variables
 
@@ -38,3 +40,15 @@
 ### ERB Template
 
 * erb
+
+### Functions
+* fail
+* template
+* inline
+* unique
+* md5
+* sha1
+* size
+* sort
+* reverse
+* strip

@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+inline_template("<%= ${1:expression} %>")
+]]>
+</content>
+<tabTrigger>inline</tabTrigger>
+<scope>source.puppet</scope>
+<description>inline template</description>
+</snippet>

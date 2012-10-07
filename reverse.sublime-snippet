@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+reverse(${1:string or array})
+]]>
+</content>
+<tabTrigger>size</tabTrigger>
+<scope>source.puppet</scope>
+<description>reverse string or array</description>
+</snippet>

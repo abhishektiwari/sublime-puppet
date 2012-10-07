@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+undef
+]]>
+</content>
+<tabTrigger>undef</tabTrigger>
+<scope>source.puppet</scope>
+<description>undef</description>
+</snippet>
