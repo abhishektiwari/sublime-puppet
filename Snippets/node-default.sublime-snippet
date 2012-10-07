@@ -1,0 +1,14 @@
+<snippet>
+<content>
+<![CDATA[
+# Goes to /etc/puppet/manifests/site.pp
+node default {
+	${1:include common}
+	${2:include apache}
+}
+]]>
+</content>
+<tabTrigger>node</tabTrigger>
+<scope>source.puppet</scope>
+<description>node-default</description>
+</snippet>

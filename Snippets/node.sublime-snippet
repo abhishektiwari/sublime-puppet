@@ -1,0 +1,14 @@
+<snippet>
+<content>
+<![CDATA[
+# Goes to /etc/puppet/manifests/site.pp
+node '${1:www1.example.com}'${2:, '${3:www2.example.com}'}{
+	${4:include common}
+	${5:include apache}
+}
+]]>
+</content>
+<tabTrigger>node</tabTrigger>
+<scope>source.puppet</scope>
+<description>node</description>
+</snippet>
