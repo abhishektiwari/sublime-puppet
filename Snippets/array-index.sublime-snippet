@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+notice(\$${1:array}[${2:index}])
+]]>
+</content>
+<tabTrigger>array</tabTrigger>
+<scope>source.puppet</scope>
+<description>array index</description>
+</snippet>

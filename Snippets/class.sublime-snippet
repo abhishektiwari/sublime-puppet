@@ -1,0 +1,22 @@
+<snippet>
+<content>
+<![CDATA[
+# == Class: ${1:namespace}::${2:class_name}
+#
+# Goes into manifests/$2.pp
+#
+# === Parameters
+#
+# === Examples
+#
+
+class $1::$2 ${3:(${4:\$param1=value1,}${5: \$param2=value2})} ${6:inherits ${7:class::name}}{
+	# resources
+	$8
+}
+]]>
+</content>
+<tabTrigger>class</tabTrigger>
+<scope>source.puppet</scope>
+<description>class definition</description>
+</snippet>

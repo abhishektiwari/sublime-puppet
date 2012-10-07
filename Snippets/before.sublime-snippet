@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+before    => ${1:Exec}['${2:nagios-rebuid}'],
+]]>
+</content>
+<tabTrigger>before</tabTrigger>
+<scope>source.puppet</scope>
+<description>before</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+tag    => ['${1:tag1}', '${2:tag2}', '${3:tag3}'],
+]]>
+</content>
+<tabTrigger>tag</tabTrigger>
+<scope>source.puppet</scope>
+<description>tag</description>
+</snippet>

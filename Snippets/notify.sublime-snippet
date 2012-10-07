@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+notify {'${1:Your massage}':}
+]]>
+</content>
+<tabTrigger>notify</tabTrigger>
+<scope>source.puppet</scope>
+<description>notify resource type</description>
+</snippet>

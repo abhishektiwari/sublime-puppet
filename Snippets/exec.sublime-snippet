@@ -1,0 +1,15 @@
+<snippet>
+<content>
+<![CDATA[
+exec {'${1:tar -xf /Volumes/nfs02/important.tar}':
+	${2:cwd     => '${3:/var/tmp}',}
+	${4:command => '${5:tar -xf /Volumes/nfs02/important.tar}',}
+	${6:creates => '${7:/var/tmp/myfile}',}
+	${8:path    => ${9:["/usr/bin", "/usr/sbin"]},}
+}
+]]>
+</content>
+<tabTrigger>exec</tabTrigger>
+<scope>source.puppet</scope>
+<description>exec resource type</description>
+</snippet>

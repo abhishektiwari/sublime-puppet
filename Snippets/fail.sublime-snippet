@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+fail("${1:Faile message}")
+]]>
+</content>
+<tabTrigger>fail</tabTrigger>
+<scope>source.puppet</scope>
+<description>fail</description>
+</snippet>

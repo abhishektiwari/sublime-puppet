@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+notify    => ${1:Service}['${2:sshd}'],
+]]>
+</content>
+<tabTrigger>notify</tabTrigger>
+<scope>source.puppet</scope>
+<description>notify meta parameter</description>
+</snippet>

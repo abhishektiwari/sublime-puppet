@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+alias    => '${1:sshdconfig}',
+]]>
+</content>
+<tabTrigger>alias</tabTrigger>
+<scope>source.puppet</scope>
+<description>alias</description>
+</snippet>

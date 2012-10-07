@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$::ipaddress
+]]>
+</content>
+<tabTrigger>facts</tabTrigger>
+<scope>source.puppet</scope>
+<description>ipaddress</description>
+</snippet>

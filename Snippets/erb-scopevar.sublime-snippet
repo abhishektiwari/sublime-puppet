@@ -1,0 +1,12 @@
+<snippet>
+<content>
+<![CDATA[
+<% scope.to_hash.keys.each do |k| -%>
+<%= k %>
+<% end -%>
+]]>
+</content>
+<tabTrigger>scope</tabTrigger>
+<scope>text.erb, text.html.erb, text.html</scope>
+<description>Print all scope vars</description>
+</snippet>

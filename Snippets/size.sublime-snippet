@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+size(${1:string or array})
+]]>
+</content>
+<tabTrigger>size</tabTrigger>
+<scope>source.puppet</scope>
+<description>size of string or array</description>
+</snippet>

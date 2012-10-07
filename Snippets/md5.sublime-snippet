@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+md5("${1:string}")
+]]>
+</content>
+<tabTrigger>md5</tabTrigger>
+<scope>source.puppet</scope>
+<description>string to md5</description>
+</snippet>

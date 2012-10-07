@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$${1:scope}::${2:var} = ${3:value}
+]]>
+</content>
+<tabTrigger>var</tabTrigger>
+<scope>source.puppet</scope>
+<description>scope-var declaration</description>
+</snippet>

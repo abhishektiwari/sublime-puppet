@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+sha1("${1:string}")
+]]>
+</content>
+<tabTrigger>sha1</tabTrigger>
+<scope>source.puppet</scope>
+<description>string to sha1</description>
+</snippet>

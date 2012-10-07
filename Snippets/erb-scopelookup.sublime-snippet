@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+<%= scope.lookupvar('${1:apache::user}') %>
+]]>
+</content>
+<tabTrigger>scope</tabTrigger>
+<scope>text.erb, text.html.erb, text.html</scope>
+<description>Access var in other scope</description>
+</snippet>

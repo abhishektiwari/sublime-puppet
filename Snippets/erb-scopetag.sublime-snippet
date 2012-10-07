@@ -1,0 +1,12 @@
+<snippet>
+<content>
+<![CDATA[
+<% tags.each do |tag| -%>
+<%= tag %>
+<% end -%>
+]]>
+</content>
+<tabTrigger>scope</tabTrigger>
+<scope>text.erb, text.html.erb, text.html</scope>
+<description>Print all tags in scope</description>
+</snippet>

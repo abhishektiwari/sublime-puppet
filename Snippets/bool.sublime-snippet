@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+${1:true or false}
+]]>
+</content>
+<tabTrigger>bool</tabTrigger>
+<scope>source.puppet</scope>
+<description>bool values</description>
+</snippet>

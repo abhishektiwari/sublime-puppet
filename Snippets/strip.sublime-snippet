@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+strip("${1:string}")
+]]>
+</content>
+<tabTrigger>strip</tabTrigger>
+<scope>source.puppet</scope>
+<description>strip string</description>
+</snippet>

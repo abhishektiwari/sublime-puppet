@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$::fqdn
+]]>
+</content>
+<tabTrigger>facts</tabTrigger>
+<scope>source.puppet</scope>
+<description>fqdn</description>
+</snippet>

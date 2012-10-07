@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+loglevel    => ${1:debug, info, notice, warning, err, alert},
+]]>
+</content>
+<tabTrigger>loglevel</tabTrigger>
+<scope>source.puppet</scope>
+<description>loglevel</description>
+</snippet>

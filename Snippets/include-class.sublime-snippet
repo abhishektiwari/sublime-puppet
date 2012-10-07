@@ -1,0 +1,11 @@
+<snippet>
+<content>
+<![CDATA[
+include ${1:namespace1}::${2:class1}${3:, ${4:namespace2}::${5:class2}}
+
+]]>
+</content>
+<tabTrigger>class</tabTrigger>
+<scope>source.puppet</scope>
+<description>class declare using include</description>
+</snippet>

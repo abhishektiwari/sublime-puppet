@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$::path
+]]>
+</content>
+<tabTrigger>facts</tabTrigger>
+<scope>source.puppet</scope>
+<description>path</description>
+</snippet>

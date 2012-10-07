@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$${1:hash} = { ${2:key1} => '${3:val1}', ${4:key2} => '${5:val2}' }
+]]>
+</content>
+<tabTrigger>hash</tabTrigger>
+<scope>source.puppet</scope>
+<description>hash</description>
+</snippet>

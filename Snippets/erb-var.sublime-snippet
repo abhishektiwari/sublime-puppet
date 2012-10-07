@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+<%# @fqdn, @memoryfree, @operatingsystem, etc.%>
+]]>
+</content>
+<tabTrigger>erb</tabTrigger>
+<scope>text.erb, text.html.erb, text.html</scope>
+<description>erb-Instance variables</description>
+</snippet>

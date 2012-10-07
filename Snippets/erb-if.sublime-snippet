@@ -1,0 +1,12 @@
+<snippet>
+<content>
+<![CDATA[
+<% if $1 %>
+	$0
+<% end %>
+]]>
+</content>
+<tabTrigger>erb</tabTrigger>
+<scope>text.erb, text.html.erb, text.html</scope>
+<description>erb-If</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$::hostname
+]]>
+</content>
+<tabTrigger>facts</tabTrigger>
+<scope>source.puppet</scope>
+<description>hostname</description>
+</snippet>

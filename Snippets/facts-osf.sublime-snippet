@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$::osfamily
+]]>
+</content>
+<tabTrigger>facts</tabTrigger>
+<scope>source.puppet</scope>
+<description>osfamily</description>
+</snippet>

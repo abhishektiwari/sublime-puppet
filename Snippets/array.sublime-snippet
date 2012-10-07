@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$${1:array} = [${2:val1}, ${3:val2}, ${4:val3}]
+]]>
+</content>
+<tabTrigger>array</tabTrigger>
+<scope>source.puppet</scope>
+<description>array data</description>
+</snippet>
