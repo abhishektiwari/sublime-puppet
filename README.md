@@ -40,6 +40,7 @@
 ### ERB Template
 
 * erb
+* scope
 
 ### Functions
 * fail
@@ -51,4 +52,15 @@
 * size
 * sort
 * reverse
+* range
 * strip
+
+### Metaparameters
+
+* subscribe
+* tag
+* notify
+* require
+* before
+* loglevel
+* alias

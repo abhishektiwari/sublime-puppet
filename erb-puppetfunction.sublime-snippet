@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+<%= scope.function_${1:function_name}(${2:parameters}) %>
+]]>
+</content>
+<tabTrigger>scope</tabTrigger>
+<scope>text.erb, text.html.erb, text.html</scope>
+<description>Call Puppet function in scope</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+subscribe    => ${1:File}['${2:nagconf}'],
+]]>
+</content>
+<tabTrigger>subscribe</tabTrigger>
+<scope>source.puppet</scope>
+<description>subscribe</description>
+</snippet>

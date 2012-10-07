@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+require    => ${1:File}['${2:nagconf}'],
+]]>
+</content>
+<tabTrigger>require</tabTrigger>
+<scope>source.puppet</scope>
+<description>require</description>
+</snippet>
