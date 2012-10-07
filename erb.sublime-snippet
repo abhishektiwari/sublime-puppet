@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+<% ${1:Ruby code inline with output} %>
+]]>
+</content>
+<tabTrigger>erb</tabTrigger>
+<scope>text.erb, text.html.erb, text.html</scope>
+<description>erb-Ruby code</description>
+</snippet>

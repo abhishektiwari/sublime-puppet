@@ -1,0 +1,19 @@
+<snippet>
+<content>
+<![CDATA[
+case \$${1:variable} {
+	"${2:value}": {
+		# code
+		$3
+	}
+	default: {
+		# code
+		$4
+	}
+}
+]]>
+</content>
+<tabTrigger>case</tabTrigger>
+<scope>source.puppet</scope>
+<description>case statements</description>
+</snippet>

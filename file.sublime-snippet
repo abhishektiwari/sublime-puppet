@@ -1,0 +1,22 @@
+<snippet>
+<content>
+<![CDATA[
+file {'${1:/etc/ntp.conf}':
+	${2:path    => '${3:/etc/ntp.conf}',}
+	${4:ensure  => ${5:link|file|directory|present|absent},}
+	${6:owner   => ${7:root},}
+	${8:group   => ${9:root},}
+	${10:mode    => ${11:0644},}
+	# content or source or target
+	${12:content => template('${13:ntp/ntp.conf}'), }
+	${14:source  => "puppet:///modules/${15:name_of_module/filename}", }
+	${16:target  => "${17:ctp/inet.conf}", }
+	${18:notify  => Service[${19:ntp}],}
+	${20:recurse => ${21:true}},
+}
+]]>
+</content>
+<tabTrigger>file</tabTrigger>
+<scope>source.puppet</scope>
+<description>file resource type</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+<content>
+<![CDATA[
+${1:namespace}::${2:define_name} {'${3:instance_name}',
+	${4:${5:parameter} => ${6:value},}
+}
+]]>
+</content>
+<tabTrigger>define</tabTrigger>
+<scope>source.puppet</scope>
+<description>instance of define types</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+<content>
+<![CDATA[
+sshkey { "${1:hadoop}":
+	ensure => present,
+	key    => '${2:public_key}',
+	type   => '${3:ssh-dsa|ssh-rsa}',
+}
+]]>
+</content>
+<tabTrigger>ssh</tabTrigger>
+<scope>source.puppet</scope>
+<description>ssh key</description>
+</snippet>

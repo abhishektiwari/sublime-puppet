@@ -1,0 +1,17 @@
+<snippet>
+<content>
+<![CDATA[
+service {'${1:service_name}':
+	${2:enable     => ${3:true|false|manual},}
+	${4:ensure     => ${5:running|stopped},}
+	${6:hasrestart => ${7:true|false},}
+	${8:hasstatus  => ${9:true|false},}
+	${10:require    => Class['${11:config}'],}
+	${12:subscribe  => File[\$${13:initscript}], }
+}
+]]>
+</content>
+<tabTrigger>service</tabTrigger>
+<scope>source.puppet</scope>
+<description>service resource type</description>
+</snippet>

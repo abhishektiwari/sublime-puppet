@@ -1,0 +1,13 @@
+<snippet>
+<content>
+<![CDATA[
+group {'${1:hadoop}':
+	${2:ensure  	 => ${3:present|absent},}
+	${6:gid     	 => '${7:1001}',}
+}
+]]>
+</content>
+<tabTrigger>group</tabTrigger>
+<scope>source.puppet</scope>
+<description>group resource type</description>
+</snippet>

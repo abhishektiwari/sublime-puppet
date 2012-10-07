@@ -1,0 +1,15 @@
+<snippet>
+<content>
+<![CDATA[
+ssh_authorized_key { "${1:name}":
+	key  => '${2:public_key}',
+	name => '${3:user_name}',
+	type => '${4:ssh-dsa|ssh-rsa}',
+	user => '${5:ubuntu}',
+}
+]]>
+</content>
+<tabTrigger>ssh</tabTrigger>
+<scope>source.puppet</scope>
+<description>ssh auth key</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+<content>
+<![CDATA[
+\$${1:var} = \$${2:var2} ? {
+	'${3:match1}'			=> '${4:value1}',
+	/(${5:match2}|${6:match3})/	=> '${7:value2}',
+	default				=> '${8:value3}',
+}
+]]>
+</content>
+<tabTrigger>case</tabTrigger>
+<scope>source.puppet</scope>
+<description>selector</description>
+</snippet>

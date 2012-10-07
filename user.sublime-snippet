@@ -1,0 +1,20 @@
+<snippet>
+<content>
+<![CDATA[
+user {'${1:hadoop}':
+	${2:ensure  	 => ${3:present|absent},}
+	${4:uid     	 => '${5:1001}',}
+	${6:gid     	 => '${7:1001}',}
+	${8:comment 	 => '$1',}
+	${10:home   	     => '${11:/home/}$1',}
+	${12:shell        => '${13:/bin/bash}', }
+	${14:managehome   => ${15:true|false}, }
+	${16:password  	 => '${17:$1$5dZQgQSq$POqlSWnuiYZ7d1VXfgXGo.}', }
+	${18:require	     => [Group['$1'], Package['ruby-shadow']],}
+}
+]]>
+</content>
+<tabTrigger>user</tabTrigger>
+<scope>source.puppet</scope>
+<description>user resource type</description>
+</snippet>

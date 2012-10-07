@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+notice(\$${1:hash}[${2:key}])
+]]>
+</content>
+<tabTrigger>hash</tabTrigger>
+<scope>source.puppet</scope>
+<description>hash value for key</description>
+</snippet>

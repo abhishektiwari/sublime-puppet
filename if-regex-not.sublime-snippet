@@ -1,0 +1,12 @@
+<snippet>
+<content>
+<![CDATA[
+if \$${1:string} !~ /${2:^www\$}/ {
+	$3
+}
+]]>
+</content>
+<tabTrigger>if</tabTrigger>
+<scope>source.puppet</scope>
+<description>if regex not</description>
+</snippet>

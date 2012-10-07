@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$::${1:var}
+]]>
+</content>
+<tabTrigger>var</tabTrigger>
+<scope>source.puppet</scope>
+<description>top-scope-var</description>
+</snippet>

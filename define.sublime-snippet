@@ -1,0 +1,22 @@
+<snippet>
+<content>
+<![CDATA[
+# == Define: ${1:namespace}::${2:define_name}
+#
+# Goes into manifests/$2.pp
+#
+# === Parameters
+#
+# === Examples
+#
+
+define $1::$2 ${3:(${4:\$param1=value1,}${5: \$param2=value2})}{
+	# resources
+	$6
+}
+]]>
+</content>
+<tabTrigger>define</tabTrigger>
+<scope>source.puppet</scope>
+<description>define types</description>
+</snippet>

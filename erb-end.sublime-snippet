@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+<% end %>
+]]>
+</content>
+<tabTrigger>erb</tabTrigger>
+<scope>text.erb, text.html.erb, text.html</scope>
+<description>erb-End</description>
+</snippet>

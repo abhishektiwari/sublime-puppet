@@ -1,0 +1,14 @@
+<snippet>
+<content>
+<![CDATA[
+case \$::operatingsystem {
+      centos, redhat: { $1 }
+      debian, ubuntu: { $2 }
+      default: { fail("Unrecognized operating system") }
+    }
+]]>
+</content>
+<tabTrigger>case</tabTrigger>
+<scope>source.puppet</scope>
+<description>os case statements</description>
+</snippet>
