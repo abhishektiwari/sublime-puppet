@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+realize ${1:Type}['${2:name1}']${3:, $1['${4:name2}']}
+]]>
+</content>
+<tabTrigger>virtual</tabTrigger>
+<scope>source.puppet</scope>
+<description>virtual-realizing</description>
+</snippet>

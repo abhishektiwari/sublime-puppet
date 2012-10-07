@@ -1,0 +1,12 @@
+<snippet>
+<content>
+<![CDATA[
+# Prepend @ (the “at” sign) to the type of a normal resource declaration
+
+@${1:type}
+]]>
+</content>
+<tabTrigger>virtual</tabTrigger>
+<scope>source.puppet</scope>
+<description>virtual-declaring</description>
+</snippet>

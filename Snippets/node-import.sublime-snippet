@@ -1,0 +1,13 @@
+<snippet>
+<content>
+<![CDATA[
+# Goes to /etc/puppet/manifests/site.pp
+# Import every .pp file in /etc/puppet/manifests/nodes/
+
+import 'nodes/*.pp'
+]]>
+</content>
+<tabTrigger>node</tabTrigger>
+<scope>source.puppet</scope>
+<description>node-import</description>
+</snippet>
