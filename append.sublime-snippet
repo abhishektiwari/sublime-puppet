@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
++=
+]]>
+</content>
+<tabTrigger>append</tabTrigger>
+<scope>source.puppet</scope>
+<description>append string, array, hash</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$::memorysize
+]]>
+</content>
+<tabTrigger>facts</tabTrigger>
+<scope>source.puppet</scope>
+<description>memorysize</description>
+</snippet>

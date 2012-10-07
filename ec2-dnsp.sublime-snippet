@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$::ec2_public_hostname
+]]>
+</content>
+<tabTrigger>ec2</tabTrigger>
+<scope>source.puppet</scope>
+<description>ec2_public_hostname</description>
+</snippet>

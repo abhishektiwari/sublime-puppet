@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+\$::memoryfree
+]]>
+</content>
+<tabTrigger>facts</tabTrigger>
+<scope>source.puppet</scope>
+<description>memoryfree</description>
+</snippet>
