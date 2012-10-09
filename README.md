@@ -58,10 +58,11 @@
 ### Metaparameters
 
 * subscribe
-* tag
 * notify
 * require
 * before
+* chain
+* tag
 * loglevel
 * alias
 

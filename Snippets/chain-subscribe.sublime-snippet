@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+${1:Service}["${2:httpd}"] <~ ${3:File}["${4:httpd.conf}"]
+]]>
+</content>
+<tabTrigger>chain</tabTrigger>
+<scope>source.puppet</scope>
+<description>chain-subscribe</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+${1:Group}["${2:apache}"] -> ${3:User}["${4:apache}"]
+]]>
+</content>
+<tabTrigger>chain</tabTrigger>
+<scope>source.puppet</scope>
+<description>chain-order</description>
+</snippet>
