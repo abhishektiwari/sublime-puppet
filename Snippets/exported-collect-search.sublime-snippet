@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+${1:Type} <<| ${2:attribute} == ${3:search-key} |>>
+]]>
+</content>
+<tabTrigger>exported</tabTrigger>
+<scope>source.puppet</scope>
+<description>exported-collecting search</description>
+</snippet>

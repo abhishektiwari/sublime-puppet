@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+${1:Type} <<| |>>
+]]>
+</content>
+<tabTrigger>exported</tabTrigger>
+<scope>source.puppet</scope>
+<description>exported-collecting all</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+<content>
+<![CDATA[
+tidy { "${1:/tmp}":
+	age     => "${2:1s|1m|1d|1w}",
+	size    => "${3:10b|k|m|g|t}"
+	recurse => "${4:true|false}",
+	matches => [${5:"[0-9]pub*.tmp", "*.temp", "tmpfile?"}]
+}
+]]>
+</content>
+<tabTrigger>tidy</tabTrigger>
+<scope>source.puppet</scope>
+<description>tidy</description>
+</snippet>

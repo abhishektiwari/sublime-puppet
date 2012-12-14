@@ -12,6 +12,7 @@
 * cron
 * notify
 * ssh
+* tidy
 
 ### Variables
 
@@ -54,6 +55,8 @@
 * reverse
 * range
 * strip
+* tag
+* tagged
 
 ### Metaparameters
 
@@ -70,3 +73,5 @@
 
 * node
 * virtual
+* collector
+* exported

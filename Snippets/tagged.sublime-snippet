@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+tagged(${1:tagname})
+]]>
+</content>
+<tabTrigger>tag</tabTrigger>
+<scope>source.puppet</scope>
+<description>tagged function return bool</description>
+</snippet>

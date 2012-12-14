@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+@@${1:type}
+]]>
+</content>
+<tabTrigger>exported</tabTrigger>
+<scope>source.puppet</scope>
+<description>exported-declaring</description>
+</snippet>

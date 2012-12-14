@@ -1,0 +1,10 @@
+<snippet>
+<content>
+<![CDATA[
+${1:Type} <| ${2:attribute name} == ${3:search-key} |> { ${4:attributes and values} }
+]]>
+</content>
+<tabTrigger>collector</tabTrigger>
+<scope>source.puppet</scope>
+<description>collector-block</description>
+</snippet>
